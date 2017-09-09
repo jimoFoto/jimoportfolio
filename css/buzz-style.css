@@ -1,0 +1,280 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*----------- BASE COLORS -----------
+Light     #FFFAD5 rgb(255,250,213)
+Medium    #FFD34E rgb(255,211,78)
+Dark      #DB9E36 rgb(219,158,54)
+Base      #BD4932 rgb(189,73,50)
+Comp      #105B63 rgb(16,91,99)
+ */
+  
+/* ----------- DOCUMENT ----------- */
+body {
+	background-color: #FFD34E;
+	color: #105B63;	
+	font-family: "co-headline",'Montserrat', sans-serif;
+	position: relative;
+}
+
+.pull-right {
+	padding-left: 10px;
+}
+
+.pull-left {
+	padding-right: 10px;
+}
+
+hr {
+	clear: both;
+	margin: 40px 0 0 0;	
+	border-color: #FFD34E;
+}
+
+.main-section {
+	padding-top: 50px;
+}
+
+.last-section {
+	min-height: 500px;
+}
+
+aside.img-float-fix {
+	min-height: 450px;
+	clear:both;
+}
+
+.container {
+	background: #FFFAD5;
+}
+
+.clear-both {
+	clear: both;
+}
+
+.readmore {
+	text-align:right;
+	padding: 15px 10px 10px 10px;
+	width: 100%;
+}
+
+.modal-dialog {
+	width: 95%;
+	background-color: #FFFAD5;
+}
+
+
+/* ----------- NAVBAR ----------- */ 
+.navbar-nav {
+	float: right;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+	margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav > li > a  {
+	color: #FFFAD5;
+	font-size: 1.8em;
+}
+
+.navbar-default .navbar-nav > li > a:focus, 
+.navbar-default .navbar-nav > li > a:hover {
+	color: #105B63;
+	text-decoration: underline;
+	background-color:#FFFAD5;
+}
+
+.navbar-default .navbar-brand {
+	color: #FFFAD5;
+	font-size: 3em;
+	font-weight:700;
+}
+
+.navbar-default .navbar-brand:focus, 
+.navbar-default .navbar-brand:hover {
+    color: #FFFAD5;
+	text-decoration: underline;
+
+}
+
+header .inbody {
+	background: #105B63;
+}
+
+header .navbar {
+	transition: all .5s ease-out;
+}
+
+
+/* ----------- BUTTONS & FORMS ----------- */
+.btn-default {
+    color: #BD4932;
+    background-color: rgba(255,250,213,.8);
+    border-color: #BD4932;
+	border-width: 3px;
+}
+
+.btn-default.focus, 
+.btn-default:focus {
+    color: #BD4932;
+    background-color: #e6e6e6;
+    border-color: #BD4932;
+	border-width: 3px;
+
+}
+
+.btn-default:hover {
+    color: #105B63;
+    background-color: rgba(255,250,213,1);
+    border-color: #105B63;
+	border-width: 3px;
+}
+
+.btn-default.active, .btn-default:active, 
+.open > .dropdown-toggle.btn-default {
+    color: #BD4932;
+    background-color: #e6e6e6;
+    border-color: #BD4932;
+	border-width: 5px;
+}
+
+
+/* ----------- IMAGE THUMBNAILS MODELS ----------- */ 
+.thumbnail {
+	margin-right: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	background-color: #fff;
+	border: 0;
+	width: 250px;
+	height: 220px;
+	padding: 5px;
+}
+
+
+#espn.thumbnail {
+	width: 200px;
+	height: 200px;
+	border: 2px solid #DB9E36;
+}
+
+.img-overview {
+	width:50%;
+	padding: 0 10px;
+}
+
+.img-bar {
+	padding: 20px 0 0 0;
+}
+
+
+/* ----------- HOMEPAGE ----------- */ 
+#home-banner {
+	margin: 0 -15px;
+	height: 300px;
+	background: #FFD34E url(../images/bee-banner.png) no-repeat center top;
+}
+
+#home-banner h2 {
+	margin-top: 0;
+}
+
+#home-tagline {
+	float: right;
+	padding: 2.5em 1.5em;
+	width: 60%;
+	text-align: right;
+	color: #BD4932;
+}
+
+#home-tagline a {
+	float: right	;	
+	margin-top: 20px;
+}
+
+.home-section {
+	padding: 0 10px 0 20px;
+}
+
+#adBanner {
+	margin: 0 -15px;	
+}
+
+/* ----------- PORTFOLIO ----------- */
+.client-section {
+	background-color: #fff;
+	margin: 0 0 20px 0;
+
+}
+
+.caption h4 {
+	padding: 0 10px;	
+}
+
+/* ----------- FOOTER ----------- */
+footer div {
+	padding: 50px 0 10px 0;
+	float: right;
+}
+
+@media (max-width: 767px) {
+	h1 {
+		font-size: 30px;
+	}
+	
+	.navbar-nav {
+		margin: 7.5px 0;
+	}
+	
+	.navbar-default .navbar-brand {
+		float: right;
+	}
+	
+	#home-tagline {
+		width: 80%;
+		padding: 1em 1em 0;
+	}
+	
+	#home-tagline a {
+		margin-top: 10px;
+	}
+	
+	.thumbnail {
+		width: inherit;
+		height: 260px;
+	}
+	
+	.img-overview {
+		width:100%;
+	}	
+	
+	.client-section {
+		background-color: #fff;
+		margin: 0 30px 20px 30px;
+		padding: 10px;
+	}
+}
+
+@media (max-width: 500px) {
+	#home-tagline {
+		width: 90%;
+	}
+}
+
+@media (max-width: 400px) {
+	#home-tagline {
+		width: 100%;
+		font-size: 1em;
+		padding: 1em;
+	}
+		
+}
+
+@media (min-width: 300px) {
+	.nav > li {
+		float: left;
+	}
+}

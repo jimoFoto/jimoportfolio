@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>JimoPortfolio Training Necture Banner</title>
+        <link rel="stylesheet" href="../css/nector-banner.css">    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+<script src="https://use.typekit.net/uki6xoe.js"></script>
+        <script>try{Typekit.load({ async: false });}catch(e){}</script>
+    </head>
+
+<body>
+    <div id="adBanner">
+        <a id="adBanLink" href="#">
+            <div id="adBan">
+                <div class="adBan_Img" id="adBan_clouds"></div>
+                <div class="adBan_Img" id="adBan_field"></div>
+                <div class="adBan_Img" id="adBan_logo"></div>
+                <div class="adBan_Img" id="adBan_flower"></div>
+                <div class="adBan_Img" id="adBan_call_bee"></div>
+                <div id="adBan_txt1">Looking to Feed Your Knowledge?</div>
+                <div id="adBan_txt2">Bring the Training Nector!</div>
+                <div id="adBan_tagline">Engage &amp; Empower Your Users.</div>
+            </div>
+        </a>	
+        
+        <script type="text/javascript" src="../js/TweenMax.min.js"></script>
+        <script type="text/javascript">
+            (function(){
+                var tl1 = new TimelineMax();
+                tl1.to('#adBan', 2, { opacity:1 })
+                tl1.from('#adBan_txt2', 1.3, { top:-100, ease: Power2.easeOut })
+                .to('#adBan_txt1', 1.3, { top: 400, ease: Power2.easeOut }, '-=1.5')
+                .from('#adBan_logo', 2, { left:-300,ease: Bounce.easeOut },'-=.5')
+                .from('#adBan_flower', 1, { bottom:-300, ease:  Power2.easeOut },'-=.5')
+                .from("#adBan_call_bee", 1.7, { scale: 0, ease: SlowMo.ease.config(1, 1.5, false), x: -1300, y:-255 })
+                .from('#adBan_tagline', 1.2, { scale: .2, opacity: 0, ease: Power2.easeOut }, '-=1');
+                                        
+                var tl2 = new TimelineMax({repeat:-1});
+                    tl2.to('#adBan_clouds', 65, {backgroundPositionX: 649, ease: Power0.easeOut});
+            }());
+        </script>
+    </div> 
+</body>
+</html>

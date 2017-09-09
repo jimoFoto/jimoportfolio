@@ -1,0 +1,232 @@
+	a#adBanLink { 
+		overflow:hidden;
+		background-color:rgba(8,131,247,1.00);
+	}
+	
+	#adBan {
+		width: 100%;
+		height: 200px;
+		position: relative;
+		overflow:hidden;
+		opacity: 0;
+		font-family: "Co Headline",sans-serif;
+	}
+	
+	#adBan .adBan_Img {
+		position: absolute;
+		background: url('../images/nectar-banner.png') no-repeat 0px 0px;
+	}
+	
+	#adBan #adBan_clouds {
+		width: inherit;
+		height: inherit;
+		top: 0px;
+		left: 0px;
+		background-repeat: repeat-x;
+	}
+	
+	#adBan #adBan_field {
+		width: inherit;
+		height: inherit;
+		background-position: 0px -334px;
+		left: 0px;
+		bottom: 0px;
+	}
+	
+	#adBan #adBan_txt1,
+	#adBan #adBan_txt2 {
+		position: absolute;
+		width: inherit;
+		text-align: left;
+		color:#FFD34E;
+		font-size: 3em;
+		line-height: 1.1em;
+		font-weight: 600;
+		top: 0px;
+		left: 30px;
+		text-transform: uppercase;
+	}
+	
+
+	#adBan #adBan_tagline {
+		position: absolute;
+		width: inherit;
+		text-align: left;
+		color: #FFFAD5;
+		font-size: 2em;
+		font-weight: 500;
+		top: 65px;
+		left: 300px;
+	}
+	
+	#adBan #adBan_logo {
+		width: 300px;
+		height: 150px;
+		background-position: -408px -647px;
+		bottom: -32px;
+		left: 15px;	
+	}
+	
+	#adBan #adBan_flower {
+		width: 340px;
+		height: 300px;
+		background-position: 0 -646px;
+		bottom: -130px;
+		right: 0;
+	}
+	
+	#adBan #adBan_call_bee {
+		background-position: -764px -645px;
+		width: 250px;
+		height: 170px;
+		bottom: -30px;
+		right: 120px;	
+	}
+	
+	@media screen and (max-width: 1100px) {
+	#adBan #adBan_tagline {
+		top: 50px;
+		left: 220px;
+	}
+	
+	#adBan #adBan_flower {
+		bottom: -160px;
+		right: -70px;
+	}
+	
+	#adBan #adBan_call_bee {
+		bottom: -40px;
+		right: 60px;	
+	}
+	}
+	
+	@media screen and (max-width: 1000px) {
+	#adBan #adBan_txt1,
+	#adBan #adBan_txt2 {
+		font-size: 1.9em;
+	}
+	
+	#adBan #adBan_tagline {
+		font-size: 1.7em;
+		top: 50px;
+		left: 150px;
+	}
+	
+	#adBan #adBan_flower {
+		bottom: -160px;
+		right: -70px;
+	}
+	
+	#adBan #adBan_call_bee {
+		bottom: -40px;
+		right: 60px;	
+	}
+	}
+	
+	@media screen and (max-width: 700px) {
+		#adBan {
+			height: 320px;
+		}
+		
+		#adBan #adBan_txt1,
+		#adBan #adBan_txt2 {
+			font-size: 1.9em;
+			top: 10px;
+			left: 10px;
+
+		}
+	
+		#adBan #adBan_tagline {
+			font-size: 1.8em;
+			font-weight: 500;
+			top: 30px;
+			left: 10px;
+		}	
+			
+		#adBan #adBan_field {
+			bottom: -60px;
+		}
+		
+		#adBan #adBan_logo {
+			bottom: 95px;
+			left: 0px;	
+		}
+		
+		#adBan #adBan_flower {
+			bottom: -140px;
+			right: -100px;
+		}
+		
+		#adBan #adBan_call_bee {
+			bottom: -30px;
+			right: 30px;
+		}
+	}
+	
+	@media screen and (max-width: 500px) {
+		#adBan #adBan_txt1 {
+			font-size: 1.1em;
+		}
+		
+		#adBan #adBan_txt2 {
+			font-size: 1.1em;
+		}
+	
+		#adBan #adBan_tagline {
+			font-size: 1.1em;
+			font-weight: 500;
+			top: 30px;
+			left: 10px;
+		}
+		 	
+		#adBan #adBan_logo {
+			bottom: 105px;
+			left: 0px;	
+		}
+			
+		#adBan #adBan_field {
+			bottom: -60px;
+		}
+		
+		
+		#adBan #adBan_flower {
+			bottom: -140px;
+			right: -100px;
+		}
+		
+		#adBan #adBan_call_bee {
+			bottom: -30px;
+			right: 30px;
+		}
+	}
+	
+	@media screen and (max-width: 400px) {
+		#adBan #adBan_txt1 {
+			font-size: 2em;
+		}
+		
+		#adBan #adBan_txt2 {
+			font-size: 1.3em;
+		}
+	
+		#adBan #adBan_tagline {
+			font-size: 1.3em;
+			font-weight: 500;
+			top: 28px;
+		}	
+			
+		#adBan #adBan_field {
+			bottom: -60px;
+		}
+		
+		
+		#adBan #adBan_flower {
+			bottom: -140px;
+			right: -100px;
+		}
+		
+		#adBan #adBan_call_bee {
+			bottom: -30px;
+			right: 30px;
+		}
+	}
