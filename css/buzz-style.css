@@ -63,42 +63,22 @@ aside.img-float-fix {
 	background-color: #FFFAD5;
 }
 
+.well {
+    background-color: #DB9E36;
+    border: none;
+	color: #FFFAD5;
+}
 
 /* ----------- NAVBAR ----------- */ 
-.navbar-nav {
-	float: right;
-}
-
-.navbar-default {
-	background-color: transparent;
-	border-color: transparent;
-	margin-bottom: 0;
-}
-
-.navbar-default .navbar-nav > li > a  {
-	color: #FFFAD5;
-	font-size: 1.8em;
-}
-
-.navbar-default .navbar-nav > li > a:focus, 
-.navbar-default .navbar-nav > li > a:hover {
-	color: #105B63;
-	text-decoration: underline;
-	background-color:#FFFAD5;
-}
-
-.navbar-default .navbar-brand {
+.navbar-brand {
 	color: #FFFAD5;
 	font-size: 3em;
 	font-weight:700;
+	background-color: transparent;
+	border-color: transparent;
+	float: left;
 }
 
-.navbar-default .navbar-brand:focus, 
-.navbar-default .navbar-brand:hover {
-    color: #FFFAD5;
-	text-decoration: underline;
-
-}
 
 header .inbody {
 	background: #105B63;
@@ -214,11 +194,12 @@ header .navbar {
 	padding: 0 10px;	
 }
 
-/* ----------- FOOTER ----------- */
-footer div {
-	padding: 50px 0 10px 0;
-	float: right;
+Footer {
+    bottom: 0;
 }
+
+/* ----------- FOOTER ----------- */
+
 
 @media (max-width: 767px) {
 	h1 {
