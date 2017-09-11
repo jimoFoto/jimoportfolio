@@ -1,7 +1,7 @@
-# Webalizer V2.01-10 Incremental Data - 09/09/2017 00:58:53
-2017 9 9 0 58 53
-330 324 4 33 11 2 52586790 43 3 0
-1 190 190 8 9
+# Webalizer V2.01-10 Incremental Data - 09/11/2017 00:33:43
+2017 9 11 0 33 43
+748 728 18 33 13 4 168442767 89 18 0
+1 3 190 8 11
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -10,7 +10,9 @@
 0 0 0 0 0 0
 0 0 0 0 0 0
 140 134 27765638 4 20 3
-190 190 24821152 1 23 1
+513 507 108921729 6 56 9
+92 87 31752811 9 10 6
+3 0 2589 1 3 1
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -31,40 +33,34 @@
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-190 190 24821152 23
+193 190 24823741 26
+0 0 0 0
+0 0 0 0
+2 1 14905 1
+0 0 0 0
+2 2 28084 2
+0 0 0 0
+0 0 0 0
+25 25 3277745 3
+6 6 275574 1
+7 7 933892 1
+156 156 52940030 11
+125 125 26887564 10
+0 0 0 0
+7 1 19220 5
 0 0 0 0
 0 0 0 0
 0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
-0 0 0 0
+3 3 42126 3
 2 1 2046 1
 0 0 0 0
-0 0 0 0
+81 77 31420206 5
 5 3 5275 3
-133 130 27758317 16
+134 131 27772359 17
 0
 0
 0
-324
-0
-0
-0
-0
+728
 0
 0
 0
@@ -78,7 +74,11 @@
 0
 0
 0
-6
+0
+0
+0
+0
+20
 0
 0
 0
@@ -100,78 +100,117 @@
 0
 # -urls- 
 /
-0 14 0 53319 3 0
+0 45 0 466668 16 3
 /images/espn/itk/profile-layou3.0.png
-1 1 0 649331 0 0
+1 7 0 4545317 0 0
 /fonts/glyphicons-halflings-regular.woff2
-0 2 0 36056 0 0
+0 7 0 126196 0 0
 /images/espn/international-cd-rom.png
-1 1 0 315349 0 0
+1 7 0 2207443 0 0
 /images/espn/ddc-example.png
-1 1 0 361949 0 0
+1 7 0 2533643 0 0
 /images/espn/itk/Best-Practice.png
-1 1 0 877123 0 0
+1 7 0 6139861 0 0
 /images/portfolio/nhcl.png
-1 10 0 825600 0 0
+1 29 0 2394240 0 0
 /images/bee-banner.png
-1 37 0 25075566 0 0
+1 65 0 44051670 0 0
 /images/espn/sales-cd/sales-cd-rom_0004_espn360.png
-1 1 0 881061 0 0
+1 7 0 6167427 0 0
 /images/espn/itk/hompage3.1.png
-1 1 0 1495382 0 0
+1 7 0 10467674 0 0
 /contact.html
 0 9 0 31097 0 0
 /portfolio.html
-0 10 0 120142 0 0
+0 11 0 131870 0 2
 /images/espn/sales-cd/sales-cd-rom_0000_start.png
-1 1 0 941915 0 0
+1 7 0 6593405 0 0
 /images/espn/orgchart.png
-1 1 0 168740 0 0
+1 7 0 1181180 0 0
 /images/espn/sales-cd/sales-cd-rom_0002_video-promo.png
-1 1 0 696531 0 0
+1 7 0 4875717 0 0
 /js/jquery-2.2.1.min.js
-0 37 0 3168310 0 0
+0 67 0 5737210 0 0
 /images/espn/itk/Recommendations-for-community-upgrade.png
-1 1 0 1703001 0 0
+1 7 0 11921007 0 0
 /images/espn/itk/ITK-Style-Quick-References.png
-1 1 0 550728 0 0
+1 7 0 3855096 0 0
 /css/nector-banner.css
-0 37 0 125652 0 0
+0 67 0 227532 0 0
 /images/espn/itk/community3.1.png
-1 1 0 301495 0 0
+1 7 0 2110465 0 0
 /images/portfolio/greenmnt.png
-1 10 0 573440 0 0
+1 30 0 1720320 0 0
 /js/bootstrap.min.js
-0 37 0 1364116 0 0
+0 67 0 2470156 0 0
 /images/portfolio/mastersons.png
-1 10 0 1770720 0 0
+1 30 0 5312160 0 0
 /images/espn/itk/itk1-launch-poster.png
-1 1 0 659170 0 0
+1 7 0 4614190 0 0
 /images/espn/sales-cd/sales-cd-rom_0003_360fans.png
-1 1 0 720552 0 0
+1 7 0 5043864 0 0
 /css/buzz-style.css
-0 37 0 148148 0 0
+0 67 0 257914 0 0
 /images/portfolio/ESPN-N-Campus-Bristol-CT.png
-1 10 0 1505120 0 0
+1 31 0 4665872 0 0
 /portfolio-espn.html
-0 1 0 25432 0 0
+0 7 0 174735 1 0
 /about.html
-0 9 0 63226 0 0
+0 10 0 70111 0 0
 /css/bootstrap.min.css
-0 37 0 4486620 0 0
+0 67 0 8124420 0 0
 /images/espn/itk/Creating-a-link-farm.png
-1 1 0 678495 0 0
+1 7 0 4749465 0 0
 /images/espn/sales-cd/sales-cd-rom_0001_360start.png
-1 1 0 1036580 0 0
+1 7 0 7256060 0 0
 /images/espn/itk/Business-Value.png
-1 1 0 1171646 0 0
+1 7 0 8201522 0 0
 # End Of Table - urls
 # -sites- (monthly)
+66.249.66.90
+0 1 1 14042 1 1505087205
+/
 76.118.57.85
-0 327 322 52579737 1 1504918729
-/portfolio.html
+0 635 630 136069870 5 1504960975
+/
 75.149.221.170
 0 1 1 5007 1 1504913737
+/
+108.174.5.115
+0 1 1 150512 0 0
+-
+212.83.158.95
+0 5 2 30673 2 1505090023
+-
+196.52.43.57
+0 1 1 14042 1 1504981302
+/
+217.20.114.242
+0 7 1 19220 1 1504966300
+-
+66.249.69.69
+0 6 5 190807 1 1505037001
+/portfolio-espn.html
+66.249.69.70
+0 1 1 14042 1 1505015756
+/
+66.249.69.72
+0 1 1 85630 0 0
+-
+66.249.64.152
+0 3 3 210286 0 0
+-
+66.249.64.154
+0 3 3 54516 1 1505077711
+/
+66.249.64.156
+0 1 0 863 0 0
+-
+168.1.128.59
+0 2 2 28084 1 1505022658
+/
+108.174.8.21
+0 4 4 398586 1 1504958264
 /
 66.249.64.25
 0 1 0 863 0 0
@@ -179,43 +218,56 @@
 66.249.64.26
 0 1 1 1183 1 1504899899
 /
+76.24.179.120
+0 74 71 31154541 1 1505079033
+/
 # End Of Table - sites (monthly)
 # -sites- (daily)
-76.118.57.85
-0 190 190 24821152 1 1504918729
-/portfolio.html
+212.83.158.95
+0 3 0 2589 1 1505090023
+-
 # End Of Table - sites (daily)
 # -referrers- 
 - (Direct Request)
-0 14
+0 51
 http://jimoportfolio.com/contact.html
 1 48
 http://jimoportfolio.com/portfolio-espn.html
-1 23
+1 162
 http://jimoportfolio.com/index.html
-1 24
+1 123
 http://jimoportfolio.com/css/buzz-style.css
-1 37
+1 58
 http://jimoportfolio.com/
-1 25
+1 113
 http://jimoportfolio.com/portfolio.html
-1 100
+1 116
 http://jimoportfolio.com/about.html
-1 55
+1 62
+http://wp.jimoportfolio.com
+1 1
 http://ww.jimoportfolio.com/
 1 1
-http://www.jimoportfolio.com/
+http://jimoportfolio.com
 1 1
+http://www.jimoportfolio.com/
+1 6
 http://jimoportfolio.com/css/bootstrap.min.css
-1 2
+1 6
 # End Of Table - referrers
 # -agents- 
 Googlebot/2.1
-0 2
+0 18
 Netscape 6 compatible
-2 328
+2 721
 Mozilla/5.0
-0 328
+0 721
+Opera/9.8
+0 3
+Opera
+2 3
+Apache-HttpClient/4.5.2 (Java/1.8.0_72)
+0 3
 # End Of Table - agents
 # -search strings- 
 # End Of Table - search strings
